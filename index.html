@@ -24,20 +24,53 @@
 		</style>
 	</head>
 
+	<script>
+		function getBG() {
+			return "assets/bg/bg1.png";
+		}
+	</script>
+
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-background-image="assets/hello.jpg">
-					<!--<aside class='notes'>This is how you add speaker notes! Yeah.</aside> -->
-					<h3>HELLO.</h3>
+				<section data-background-image="assets/bg/bg1.png">
+					<h1>Hello.</h1>
+				</section>
+
+				<section data-background-image="assets/bg/bg2.png">
+					<h1>Dan Hett</h1>
+					<h4>TECHNOLOGIST/ARTIST</h4>
+					<aside class='notes'>I'm somewhere in between a creative programmer and digital artist. Put another way - I write code for a living, but I absolutely regard myself as a creative who happens to use software, rather than a software guy who stumbled into art and design.</aside>
+				</section>
+
+				<section data-background-image="assets/bg/bg3.png">
+					<h1>ABOUT THIS TALK</h1>
+					<aside class='notes'>I generally hate talks where someone stands on stage for 45 minutes and jerks off about their portfolio, and so I'm not going to do that. This talk doesn't even have any finished work in it. And although I'm gonna talk about programming a bit, if you're not a programmer I hope that everything I touch on will still apply to you. I hate technical talks too.</aside>
+				</section>
+
+				<section data-background-image="assets/bg/bg4.png">
+					<h1>DON'T GET COMFORTABLE.</h1>
+					<aside class='notes'>What I want to talk about is my approach to creating cool stuff with computers, and along the way hopefully demystify some of the dusty old garbage that comes with programming. In particular, I really want to get into being comfortable, and why it's my firm belief that....</aside>
+				</section>
+
+				<section data-background-image="assets/bg/bg5.png">
+					<h1>COMFORT IS YOUR ENEMY!</h1>
+					<aside class='notes'>Whether your tool is Javascript, Photoshop, a paintbrush or the written word - as ANY kind of creative, being nice and comfortable is your absolute fucking nemesis. The overwhelming desire to not get too complacent, and to constantly interogate, destroy and rebuild my tools and my craft, have become a sort of central defining characteristic of my practice.</aside>
 				</section>
 
 				<section>
-					<h3>This is page two.</h3>
+					<h3>MY ROUTE IN</h3>
+					<aside class='notes'>My entry point to this stuff I think shaped a lot of why I feel this way. I actually didn't study computer science, at all, and in fact my degree is in Design and Visual Arts - I fell into programming very late on, when I needed to do more complicated things with Flash that bits and pieces of script weren't enough. I would never have chosen a Computer Science route, and I still wouldn't.</aside>
 				</section>
 
 				<section>
-					<h3>This is page three.</h3>
+					<img src='assets/violinist.jpg'</img>
+					<aside class='notes'>Not that there’s anything wrong with studying computer science of course. I think of normal programmers being sort of the classically trained musicians...</aside>
+				</section>
+
+				<section>
+					<img src='assets/guitarist.jpg'</img>
+					<aside class='notes'>...to my three chord punk. Same core tools, wildly different approaches. And both perfectly valid of course, except the music analogy falls down a little bit because classically trained violinists don't go to punk shows and tell the band they're not playing their instruments properly, which is ABSOLUTELY what happens with certain programmers.</aside>
 				</section>
 			</div>
 		</div>
@@ -52,9 +85,9 @@
 				history: true,
 				progress: false,
 				controls: false,
-				showNotes: true,
+				showNotes: false,
 				transition: 'fade', // none/fade/slide/convex/concave/zoom
-    		transitionSpeed: 'default'
+				transitionSpeed: 'slow'
 			});
 		</script>
 
