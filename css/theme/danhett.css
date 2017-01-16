@@ -46,31 +46,32 @@ body {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
   color: #fff;
-  /*background: rgba(0, 0, 0, 0.5);*/
+  background: rgba(0, 0, 0, 0.8);
   font-family: "BebasNeue", Helvetica, sans-serif;
   font-weight: 600;
-  line-height: 1.2;
+  line-height: 1;
   letter-spacing: normal;
   text-transform: uppercase;
   text-shadow: none;
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 4.5em; }
+  font-size: 4.5em;
+  padding-top: 30px;}
 
 .reveal h2 {
-  font-size: 3.6em; }
+  font-size: 3.6em;
+  padding-top: 20px;}
 
 .reveal h3 {
-  font-size: 3.3em; }
+  font-size: 3.3em;
+  padding-top: 20px;}
 
 .reveal h4 {
-  font-size: 1.4em; }
-
-.reveal h1 {
-  text-shadow: none; }
+  font-size: 1.4em;
+  padding-top: 10px;}
 
 /*********************************************
  * OTHER
