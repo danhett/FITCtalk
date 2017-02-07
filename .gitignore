@@ -15,5 +15,4 @@ bin-release/
 *.apk
 
 assets/video
-
-*.DS_Store
+.DS_Store
